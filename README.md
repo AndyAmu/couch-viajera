@@ -1,16 +1,52 @@
-# React + Vite
+# 🌍 Couch Viajera
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web oficial de **Thais**, creadora de contenido y viajera por el mundo.  
+El proyecto tiene como objetivo compartir experiencias de viaje, ofrecer información útil, vender **seguros de viaje**, y brindar **beneficios exclusivos** como códigos promocionales para **Worldpackers**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías principales
 
-## React Compiler
+- **React + Vite** (entorno de desarrollo rápido)
+- **Tailwind CSS** (estilos modernos y responsive)
+- **Vercel** (hosting y deploy automático)
+- **GitLab** (control de versiones y colaboración)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├─ assets/ → imágenes, íconos, fuentes
+├─ components/ → componentes reutilizables (Navbar, Footer, etc.)
+├─ pages/ → secciones del sitio (Inicio, Blog, Contacto, etc.)
+├─ hooks/ → hooks personalizados
+├─ App.jsx → componente raíz
+└─ main.jsx → punto de entrada
+
+
+---
+
+## 🛠️ Instalación y entorno local
+
+Cloná el repositorio:
+
+```bash
+git clone https://gitlab.com/tu-usuario/couch-viajera.git
+
+
+Entrá al directorio del proyecto:
+
+cd couch-viajera
+
+
+Instalá las dependencias:
+npm install
+
+
+Iniciá el servidor local:
+npm run dev
+
+
+Abrí tu navegador y accedé a:
+http://localhost:5173
